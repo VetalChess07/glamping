@@ -1,0 +1,76 @@
+$crayola: #FB554C;
+$coral:#FDB3AF;
+$misty:#FDE9E3;
+$mango:#F4BB44;
+$sunny:#FFD6AD;
+$linen:#FFD6AD;
+$white:#FFF;
+$black:#000;
+$stormy:#323334;
+$smoke:#4E4F51;
+$opal:#8DBAB5;
+$seafoam:#CCE0DE;
+$sage:#EEF1EC;
+$timber:#BBA28B;
+$oyster:#FFD6AD;
+$cloudy:#FFD6AD;
+$limegren:#00FF00;
+%btn{
+   padding: 20px 26px;
+   font-size: 30px;
+   border-radius: 20px;
+   background-color: $white;
+   color: $crayola;
+   font-weight: 900;
+transition: all 0.3s;
+cursor: pointer;
+
+}
+%btn__white{
+   background: #F5F4F3;
+   border-radius: 24px;
+   line-height: 24px;
+   padding: 8px 24px;
+   font-weight: 600;
+   font-size: 16px;
+letter-spacing: -0.02em;
+color: #000000;
+border: 1px solid #000;
+transition: all 0.3s;
+cursor: pointer;
+
+}
+%btn__hover{
+
+   background: $crayola;
+color: $white;
+
+
+}
+%btn__white__hover{
+   background: $black; 
+ 
+   color: $white;
+}
+.text__description{
+ 
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 24px;
+color: #323334;
+}
+.span__text{
+   color: $crayola;
+}
+.span__title{
+   color: $opal;
+}
+.span__title--mango{
+   color: $mango;
+}
+
+.span__title--crayola{
+   color: $crayola;
+}
+

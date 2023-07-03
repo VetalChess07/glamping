@@ -1,0 +1,9 @@
+.section__features {
+  background-color: red;
+}
+
+.features__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}

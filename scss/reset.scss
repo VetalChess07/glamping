@@ -1,0 +1,196 @@
+@font-face {
+   font-family: 'Roboto-Medium';
+   src: url(../fonts/Roboto-Medium.ttf);
+}
+
+@font-face {
+   font-family: 'Roboto-Bold';
+   src: url(../fonts/Roboto-Bold.ttf);
+}
+
+*,
+*::before,
+*::after {
+   box-sizing: border-box;
+
+}
+
+::-webkit-scrollbar {
+   width: 15px;
+}
+
+::-webkit-scrollbar-track {
+   background: $sage;
+
+
+}
+
+::-webkit-scrollbar-thumb {
+   background: $crayola;
+   border: 3px solid $sage;
+   border-radius: 10px;
+   transition: all 0.3s;
+}
+
+::-webkit-scrollbar-thumb:hover {
+   background: $opal;
+}
+
+/* Убираем внутренние отступы */
+ul,
+ol[class],
+li {
+   padding: 0;
+   list-style: none;
+}
+input{
+   outline: none;
+}
+
+/* Убираем внешние отступы */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+   margin: 0;
+}
+
+a {
+   text-decoration: none;
+   cursor: pointer;
+   color: #000000;
+   transition: all 0.3s;
+   display: inline-block;
+   font-family: 'Roboto-Medium';
+}
+a:hover {
+   color: $crayola;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+   font-family: 'Roboto-Bold';
+}
+
+p {
+   font-family: 'Roboto-Medium';
+   font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 24px;
+
+}
+
+h1{
+   
+   font-style: normal;
+   font-weight: 400;
+   font-size: 55px;
+   line-height: 110%;
+   letter-spacing: -0.02em;
+   color: $white;
+   padding: 0 10px 0 0;
+}
+h2{
+   font-style: normal;
+   font-weight: 400;
+   font-size: 96px;
+   line-height: 90%;
+   letter-spacing: -0.02em;
+   color: $crayola;
+
+   }
+h3{
+
+font-style: normal;
+font-weight: 400;
+font-size: 35px;
+line-height: 42px;
+letter-spacing: -0.02em;
+color: $crayola;
+}
+h5{
+
+   font-style: normal;
+   font-weight: 400;
+   font-size: 64px;
+   line-height: 60px;
+   letter-spacing: -0.02em;
+   color: $black; 
+}
+h6{
+   
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 32px;
+letter-spacing: -0.02em;
+color: #4E4F51;
+} 
+
+button{
+   border: none;
+}
+
+body {
+   font-family: 'GeneralSans';
+   overflow-x: hidden;
+   width: 100%;
+   margin: 0 auto;  
+   position: relative;
+   box-sizing: border-box;
+}
+body.noscroll{
+ overflow: hidden;
+ height: 100%;
+ z-index: 100;
+width: 100vw;
+box-sizing: border-box;
+  scroll-behavior: smooth;
+
+
+}
+html{
+   box-sizing: border-box;
+   width: 100%;
+   margin: 0 ;
+   padding: 0;
+   
+}
+
+
+
+.wrap {
+   margin: 0 auto;
+  
+   width: 100%;
+   max-width:1280px ;
+  
+
+
+}
+
+.section {
+   margin: 0 auto;
+   padding: 0 10px;
+   width: 100%;
+
+ 
+
+}
