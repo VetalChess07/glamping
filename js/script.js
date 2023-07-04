@@ -206,3 +206,10 @@ var swiper = new Swiper(".mySwiper", {
     prevEl: ".swiper-button-prev",
   },
 });
+
+var swiper = new Swiper(".swiper__gallery", {
+  navigation: {
+    nextEl: ".swiper-button-next__gallery",
+    prevEl: ".swiper-button-prev__gallery",
+  },
+});
