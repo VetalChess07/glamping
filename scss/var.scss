@@ -15,12 +15,13 @@ $timber:#BBA28B;
 $oyster:#FFD6AD;
 $cloudy:#FFD6AD;
 $limegren:#00FF00;
+$PaleGreen: #93c572 ;
 %btn{
    padding: 20px 26px;
    font-size: 30px;
    border-radius: 20px;
    background-color: $white;
-   color: $crayola;
+   color: $mango;
    font-weight: 900;
 transition: all 0.3s;
 cursor: pointer;
@@ -42,7 +43,7 @@ cursor: pointer;
 }
 %btn__hover{
 
-   background: $crayola;
+   background: $mango;
 color: $white;
 
 

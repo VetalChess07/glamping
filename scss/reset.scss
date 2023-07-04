@@ -20,13 +20,13 @@
 }
 
 ::-webkit-scrollbar-track {
-   background: $sage;
-
+   background: $PaleGreen;
+   border: 2px solid $sage;
 
 }
 
 ::-webkit-scrollbar-thumb {
-   background: $crayola;
+   background: $mango;
    border: 3px solid $sage;
    border-radius: 10px;
    transition: all 0.3s;
@@ -76,7 +76,7 @@ a {
    font-family: 'Roboto-Medium';
 }
 a:hover {
-   color: $crayola;
+   color: $mango;
 }
 
 h1,
@@ -86,6 +86,7 @@ h4,
 h5,
 h6 {
    font-family: 'Roboto-Bold';
+   color: $mango !important;
 }
 
 p {
@@ -94,6 +95,7 @@ p {
 font-weight: 300;
 font-size: 16px;
 line-height: 24px;
+
 
 }
 
@@ -149,12 +151,14 @@ button{
 }
 
 body {
-   font-family: 'GeneralSans';
+   font-family: 'Roboto-Medium';
    overflow-x: hidden;
    width: 100%;
    margin: 0 auto;  
    position: relative;
    box-sizing: border-box;
+   scroll-behavior: smooth;
+   background-color: $PaleGreen;
 }
 body.noscroll{
  overflow: hidden;

@@ -4,7 +4,7 @@
   font-size: 30px;
   border-radius: 20px;
   background-color: #FFF;
-  color: #FB554C;
+  color: #F4BB44;
   font-weight: 900;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
@@ -12,7 +12,7 @@
 }
 
 .contact__item-btn:hover, .cards .card .card__box-btn__item--btn:hover, .tabs__item .tabs__card-block--btn:hover, .about-us__btn:hover, .intro__item-content .intro__btn:hover {
-  background: #FB554C;
+  background: #F4BB44;
   color: #FFF;
 }
 
@@ -60,11 +60,12 @@
 }
 
 ::-webkit-scrollbar-track {
-  background: #EEF1EC;
+  background: #93c572;
+  border: 2px solid #EEF1EC;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #FB554C;
+  background: #F4BB44;
   border: 3px solid #EEF1EC;
   border-radius: 10px;
   -webkit-transition: all 0.3s;
@@ -118,7 +119,7 @@ a {
 }
 
 a:hover {
-  color: #FB554C;
+  color: #F4BB44;
 }
 
 h1,
@@ -128,6 +129,7 @@ h4,
 h5,
 h6 {
   font-family: "Roboto-Bold";
+  color: #F4BB44 !important;
 }
 
 p {
@@ -189,13 +191,15 @@ button {
 }
 
 body {
-  font-family: "GeneralSans";
+  font-family: "Roboto-Medium";
   overflow-x: hidden;
   width: 100%;
   margin: 0 auto;
   position: relative;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  scroll-behavior: smooth;
+  background-color: #93c572;
 }
 
 body.noscroll {
@@ -440,7 +444,6 @@ html {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  color: red;
   position: relative;
 }
 
@@ -470,7 +473,7 @@ html {
 .intro__item-content .intro__text {
   opacity: 1;
   margin: 20px 0;
-  color: #FB554C;
+  color: #F4BB44;
   font-size: 20px;
   line-height: 27px;
   width: 100%;
@@ -541,15 +544,14 @@ html {
 .swiper-pagination-bullet {
   width: 20px;
   height: 20px;
-  background-color: #FB554C;
+  background-color: #FFF;
   opacity: 1;
 }
 
 .swiper-pagination-bullet-active {
   width: 35px;
   height: 35px;
-  background-color: #FFF;
-  border: 1px solid #000;
+  background-color: #F4BB44;
 }
 
 .swiper {
@@ -592,6 +594,10 @@ html {
   margin-right: auto;
 }
 
+.section__about-us {
+  margin-top: 70px;
+}
+
 .about-us {
   width: 100%;
   display: -webkit-box;
@@ -607,6 +613,8 @@ html {
 
 .about-us__item {
   width: 30%;
+  background-color: #FFF;
+  border-radius: 20px;
 }
 
 .about-us__item-block {
@@ -670,6 +678,7 @@ html {
 .about-us__descr {
   margin: 0;
   margin-bottom: 15px;
+  color: #000;
 }
 
 .about-us__item .about-us__item-block {
@@ -721,7 +730,7 @@ html {
   background-color: #FFF;
 }
 .footer__inner .footer__item-block .footer__img:hover {
-  background-color: #FB554C;
+  background-color: #F4BB44;
 }
 
 .tabs {
@@ -788,6 +797,8 @@ html {
       -ms-flex-pack: justify;
           justify-content: space-between;
   margin-top: 20px;
+  background: #000;
+  border-radius: 20px;
 }
 .tabs__item .tabs__card-block {
   text-align: left;
@@ -807,7 +818,6 @@ html {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  background-color: #CCE0DE;
 }
 .tabs__item .tabs__card-block--img {
   width: 100%;
@@ -818,6 +828,7 @@ html {
 .tabs__item .tabs__card-block--text {
   margin: 40px 0;
   font-size: 20px;
+  color: #FFF;
 }
 .tabs__item.active {
   display: -webkit-box;
@@ -828,6 +839,7 @@ html {
           justify-content: space-between;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  background: #93c572;
 }
 
 .section__card {
@@ -889,6 +901,8 @@ html {
 .card__block-text .card__text {
   width: 100%;
   max-width: 35%;
+  font-size: 20px;
+  color: #FFF;
 }
 
 .cards {
@@ -905,6 +919,7 @@ html {
 }
 .cards__item {
   width: 48%;
+  background: #000;
 }
 .cards .card {
   display: -webkit-box;
@@ -945,6 +960,7 @@ html {
 .cards .card__descr {
   margin: 0;
   margin-bottom: 15px;
+  color: #FFF;
 }
 .cards .card .card__box-btn {
   width: 100%;
@@ -985,15 +1001,20 @@ html {
   font-size: 25px;
 }
 .cards .card .card__box-btn__item--link {
-  color: #FB554C;
+  color: #F4BB44;
   font-size: 20px;
 }
 .cards .card .card__box-btn__item--btn {
   padding: 10px 15px;
   font-size: 25px;
 }
+.card__box-btn__item--text {
+  color: #FFF;
+}
+
 .cards__item .card {
   height: 100%;
+  background: #000;
 }
 
 .swiper-button-next__gallery,
@@ -1026,12 +1047,12 @@ html {
   margin-top: 172px;
   width: 100%;
   position: relative;
-  background-color: #8DBAB5;
+  background-color: #4E4F51;
   padding: 70px 0;
 }
 
 .contact {
-  background-color: #CCE0DE;
+  background-color: #000;
   border-radius: 20px;
   padding: 30px;
   display: -webkit-box;
@@ -1115,18 +1136,18 @@ html {
 .contact__input {
   width: 50%;
   background: transparent;
-  color: #323334;
+  color: #93c572;
   outline: none;
   font-size: 25px;
-  border: 2px solid white;
+  border: 2px solid #F4BB44;
   border-radius: 20px;
   padding: 8px 10px;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
 }
 .contact__input:hover {
-  border: 2px solid #FB554C;
-  background: #FFF;
+  border: 2px solid #93c572;
+  background: #323334;
 }
 .contact__input::-webkit-input-placeholder {
   font-size: 25px;
@@ -1194,7 +1215,7 @@ html {
   background-color: #FFF;
 }
 .footer__inner .footer__item-block .footer__img:hover {
-  background-color: #FB554C;
+  background-color: #F4BB44;
 }
 
 @media (max-width: 1180px) {
@@ -1679,9 +1700,9 @@ html {
     margin-top: 70px;
   }
   .about-us__title {
-    text-align: center;
-    margin-bottom: 50px;
-    color: #FB554C;
+    max-width: none;
+    margin: 20px 0;
+    font-size: 25px;
   }
   .about-us__inner {
     padding: 10px;
@@ -1701,6 +1722,12 @@ html {
   .about-us__inner .about-us__item__box__text {
     padding: 10px 0;
     font-size: 15px;
+  }
+  .about-us__content-block {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
   }
   .tabs__text {
     margin: 30px 0;

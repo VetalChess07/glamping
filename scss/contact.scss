@@ -2,13 +2,13 @@
    margin-top: 172px;
    width: 100%;
    position: relative;
-  background-color: $opal;
+  background-color: $smoke;
  padding: 70px 0;
    
    
 }
 .contact{
-   background-color: $seafoam;
+   background-color: $black;
    border-radius: 20px;
    padding: 30px;
    display: flex;
@@ -83,17 +83,17 @@ gap: 20px;
 .contact__input {
    width: 50%;
    background: transparent;
-   color: $stormy;
+   color: $PaleGreen;
    outline: none;
    font-size: 25px;
-   border: 2px solid white;
+   border: 2px solid $mango;
    border-radius: 20px;
    padding: 8px 10px ;
   
    transition: all .3s;
    &:hover{
-      border: 2px solid $crayola;
-      background: $white;
+      border: 2px solid $PaleGreen;
+      background: $stormy;
    }
   
 

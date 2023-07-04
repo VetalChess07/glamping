@@ -1,8 +1,9 @@
+
 .intro__inner {
    width: 100%;
    display: flex;
    justify-content: space-between;
-color: red;
+
 position: relative;
 
 }
@@ -28,7 +29,7 @@ text-align: left;
 .intro__text {
    opacity: 1;
    margin: 20px 0 ;
-   color: $crayola;
+   color: $mango;
    font-size: 20px;   
    line-height: 27px;
    width: 100%;

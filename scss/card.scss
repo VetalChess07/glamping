@@ -55,6 +55,8 @@
 .card__text {
    width: 100%;
    max-width: 35%;
+   font-size: 20px;
+   color: $white;
 }
 }
 
@@ -71,7 +73,7 @@
 
    &__item {
   width: 48%;
-  
+  background: $black;
     }
     
     .card {
@@ -104,10 +106,12 @@
       margin: 0;
       margin-bottom: 15px;
     }
+  
     
     &__descr {
       margin: 0;
       margin-bottom: 15px;
+      color: $white;
     }
 
     .card__box-btn {
@@ -133,7 +137,7 @@
    
      }
      &--link{
-      color: $crayola;
+      color: $mango;
       font-size: 20px
      }
      &--btn{
@@ -163,9 +167,13 @@
  
 
  }
+ .card__box-btn__item--text{
+  color: $white;
+ }
 
  .cards__item .card {
    height: 100%;
+   background: $black;
  }
 
 
